@@ -1,0 +1,333 @@
+{
+  "name": "neon",
+  "author": "Comfortably Numb",
+  "version": "2.0.0",
+  "description": "Crisp, configurable nixie-inspired digits for every rectangular Pebble.",
+  "keywords": [
+    "pebble-app",
+    "watchface"
+  ],
+  "private": true,
+  "dependencies": {
+    "@rebble/clay": "1.1.0"
+  },
+  "scripts": {
+    "build": "pebble build",
+    "assets": "python3 tools/generate_assets.py",
+    "test": "node tools/verify_clay.js"
+  },
+  "pebble": {
+    "displayName": "Neon",
+    "uuid": "13371337-a9cf-43ed-a84d-76f3dc91f626",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "diorite",
+      "flint",
+      "emery"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "capabilities": [
+      "configurable"
+    ],
+    "messageKeys": {
+      "DIGIT_COLOR": 0,
+      "GLOW_COLOR": 1,
+      "BACKGROUND_COLOR": 2
+    },
+    "resources": {
+      "media": [
+        {
+          "type": "bitmap",
+          "name": "MENU_ICON",
+          "file": "images/menu_icon.png",
+          "menuIcon": true
+        },
+        {
+          "type": "raw",
+          "name": "DIGIT_0",
+          "file": "images/small/0.png",
+          "targetPlatforms": [
+            "basalt"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "DIGIT_1",
+          "file": "images/small/1.png",
+          "targetPlatforms": [
+            "basalt"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "DIGIT_2",
+          "file": "images/small/2.png",
+          "targetPlatforms": [
+            "basalt"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "DIGIT_3",
+          "file": "images/small/3.png",
+          "targetPlatforms": [
+            "basalt"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "DIGIT_4",
+          "file": "images/small/4.png",
+          "targetPlatforms": [
+            "basalt"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "DIGIT_5",
+          "file": "images/small/5.png",
+          "targetPlatforms": [
+            "basalt"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "DIGIT_6",
+          "file": "images/small/6.png",
+          "targetPlatforms": [
+            "basalt"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "DIGIT_7",
+          "file": "images/small/7.png",
+          "targetPlatforms": [
+            "basalt"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "DIGIT_8",
+          "file": "images/small/8.png",
+          "targetPlatforms": [
+            "basalt"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "DIGIT_9",
+          "file": "images/small/9.png",
+          "targetPlatforms": [
+            "basalt"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "DIGIT_0",
+          "file": "images/emery/0.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "DIGIT_1",
+          "file": "images/emery/1.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "DIGIT_2",
+          "file": "images/emery/2.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "DIGIT_3",
+          "file": "images/emery/3.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "DIGIT_4",
+          "file": "images/emery/4.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "DIGIT_5",
+          "file": "images/emery/5.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "DIGIT_6",
+          "file": "images/emery/6.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "DIGIT_7",
+          "file": "images/emery/7.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "DIGIT_8",
+          "file": "images/emery/8.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "raw",
+          "name": "DIGIT_9",
+          "file": "images/emery/9.png",
+          "targetPlatforms": [
+            "emery"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "DIGIT_0",
+          "file": "images/bw/0.png",
+          "targetPlatforms": [
+            "aplite",
+            "diorite",
+            "flint"
+          ],
+          "memoryFormat": "1Bit",
+          "storageFormat": "pbi"
+        },
+        {
+          "type": "bitmap",
+          "name": "DIGIT_1",
+          "file": "images/bw/1.png",
+          "targetPlatforms": [
+            "aplite",
+            "diorite",
+            "flint"
+          ],
+          "memoryFormat": "1Bit",
+          "storageFormat": "pbi"
+        },
+        {
+          "type": "bitmap",
+          "name": "DIGIT_2",
+          "file": "images/bw/2.png",
+          "targetPlatforms": [
+            "aplite",
+            "diorite",
+            "flint"
+          ],
+          "memoryFormat": "1Bit",
+          "storageFormat": "pbi"
+        },
+        {
+          "type": "bitmap",
+          "name": "DIGIT_3",
+          "file": "images/bw/3.png",
+          "targetPlatforms": [
+            "aplite",
+            "diorite",
+            "flint"
+          ],
+          "memoryFormat": "1Bit",
+          "storageFormat": "pbi"
+        },
+        {
+          "type": "bitmap",
+          "name": "DIGIT_4",
+          "file": "images/bw/4.png",
+          "targetPlatforms": [
+            "aplite",
+            "diorite",
+            "flint"
+          ],
+          "memoryFormat": "1Bit",
+          "storageFormat": "pbi"
+        },
+        {
+          "type": "bitmap",
+          "name": "DIGIT_5",
+          "file": "images/bw/5.png",
+          "targetPlatforms": [
+            "aplite",
+            "diorite",
+            "flint"
+          ],
+          "memoryFormat": "1Bit",
+          "storageFormat": "pbi"
+        },
+        {
+          "type": "bitmap",
+          "name": "DIGIT_6",
+          "file": "images/bw/6.png",
+          "targetPlatforms": [
+            "aplite",
+            "diorite",
+            "flint"
+          ],
+          "memoryFormat": "1Bit",
+          "storageFormat": "pbi"
+        },
+        {
+          "type": "bitmap",
+          "name": "DIGIT_7",
+          "file": "images/bw/7.png",
+          "targetPlatforms": [
+            "aplite",
+            "diorite",
+            "flint"
+          ],
+          "memoryFormat": "1Bit",
+          "storageFormat": "pbi"
+        },
+        {
+          "type": "bitmap",
+          "name": "DIGIT_8",
+          "file": "images/bw/8.png",
+          "targetPlatforms": [
+            "aplite",
+            "diorite",
+            "flint"
+          ],
+          "memoryFormat": "1Bit",
+          "storageFormat": "pbi"
+        },
+        {
+          "type": "bitmap",
+          "name": "DIGIT_9",
+          "file": "images/bw/9.png",
+          "targetPlatforms": [
+            "aplite",
+            "diorite",
+            "flint"
+          ],
+          "memoryFormat": "1Bit",
+          "storageFormat": "pbi"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "author": "Comfortably Numb",
+  "uuid": "13371337-a9cf-43ed-a84d-76f3dc91f626",
+  "time": "01:23",
+  "frame_duration_ms": 1500,
+  "loop": 0,
+  "platforms": [
+    {
+      "platform": "aplite",
+      "size": [
+        144,
+        168
+      ],
+      "color": false,
+      "screenshots": [
+        {
+          "file": "screenshots/aplite/01_white_on_black_0123.png",
+          "name": "white_on_black",
+          "digit": "FFFFFF",
+          "glow": null,
+          "background": "000000",
+          "sha256": "1a9283003e2cf9a860a0cc08e151d0e62dd2180bc7b1867e0eb5930fdb15a531"
+        },
+        {
+          "file": "screenshots/aplite/02_black_on_white_0123.png",
+          "name": "black_on_white",
+          "digit": "000000",
+          "glow": null,
+          "background": "FFFFFF",
+          "sha256": "00e193126e9f7ae309ac0dafb212f55cabefa3f3c054d8472cae14deba33cc19"
+        }
+      ],
+      "gif": "screenshots/aplite/03_slideshow_0123.gif",
+      "gif_sha256": "4db24354aa6cffc02d18a6c9331f7e0fb9471c75e032f70eca09de836cb0b7ce"
+    },
+    {
+      "platform": "basalt",
+      "size": [
+        144,
+        168
+      ],
+      "color": true,
+      "screenshots": [
+        {
+          "file": "screenshots/basalt/01_gold_0123.png",
+          "name": "gold",
+          "digit": "FFFF55",
+          "glow": "FFFF00",
+          "background": "000055",
+          "sha256": "d141abe97d64e34237d5a433c15d8e4269b54fd5ca4be71fff7a045c4716b16e"
+        },
+        {
+          "file": "screenshots/basalt/02_cyan_0123.png",
+          "name": "cyan",
+          "digit": "AAFFFF",
+          "glow": "00AAFF",
+          "background": "000000",
+          "sha256": "591c6491dbf8c9ca6cddc5d32993fc17f6c6f6d3e2f382823e953f3712cef259"
+        },
+        {
+          "file": "screenshots/basalt/03_pink_0123.png",
+          "name": "pink",
+          "digit": "FFAAFF",
+          "glow": "FF00AA",
+          "background": "000000",
+          "sha256": "73d4abd5edece4354b499c6caf4b90ecbba15bb32c7b54edf97e1d39c8871a37"
+        },
+        {
+          "file": "screenshots/basalt/04_blue_on_white_0123.png",
+          "name": "blue_on_white",
+          "digit": "000055",
+          "glow": "0055AA",
+          "background": "FFFFFF",
+          "sha256": "cfc1202918a616edc75db568e0f0bc069fdf862dcfc8c0d573e5ab76cd207f89"
+        }
+      ],
+      "gif": "screenshots/basalt/05_slideshow_0123.gif",
+      "gif_sha256": "befdeebefb80d82b0dcf86c55c6c3b5b3cf88505a1eb2460b4ecb6ace4d613cb"
+    },
+    {
+      "platform": "diorite",
+      "size": [
+        144,
+        168
+      ],
+      "color": false,
+      "screenshots": [
+        {
+          "file": "screenshots/diorite/01_white_on_black_0123.png",
+          "name": "white_on_black",
+          "digit": "FFFFFF",
+          "glow": null,
+          "background": "000000",
+          "sha256": "1a9283003e2cf9a860a0cc08e151d0e62dd2180bc7b1867e0eb5930fdb15a531"
+        },
+        {
+          "file": "screenshots/diorite/02_black_on_white_0123.png",
+          "name": "black_on_white",
+          "digit": "000000",
+          "glow": null,
+          "background": "FFFFFF",
+          "sha256": "00e193126e9f7ae309ac0dafb212f55cabefa3f3c054d8472cae14deba33cc19"
+        }
+      ],
+      "gif": "screenshots/diorite/03_slideshow_0123.gif",
+      "gif_sha256": "4db24354aa6cffc02d18a6c9331f7e0fb9471c75e032f70eca09de836cb0b7ce"
+    },
+    {
+      "platform": "flint",
+      "size": [
+        144,
+        168
+      ],
+      "color": false,
+      "screenshots": [
+        {
+          "file": "screenshots/flint/01_white_on_black_0123.png",
+          "name": "white_on_black",
+          "digit": "FFFFFF",
+          "glow": null,
+          "background": "000000",
+          "sha256": "1a9283003e2cf9a860a0cc08e151d0e62dd2180bc7b1867e0eb5930fdb15a531"
+        },
+        {
+          "file": "screenshots/flint/02_black_on_white_0123.png",
+          "name": "black_on_white",
+          "digit": "000000",
+          "glow": null,
+          "background": "FFFFFF",
+          "sha256": "00e193126e9f7ae309ac0dafb212f55cabefa3f3c054d8472cae14deba33cc19"
+        }
+      ],
+      "gif": "screenshots/flint/03_slideshow_0123.gif",
+      "gif_sha256": "4db24354aa6cffc02d18a6c9331f7e0fb9471c75e032f70eca09de836cb0b7ce"
+    },
+    {
+      "platform": "emery",
+      "size": [
+        200,
+        228
+      ],
+      "color": true,
+      "screenshots": [
+        {
+          "file": "screenshots/emery/01_gold_0123.png",
+          "name": "gold",
+          "digit": "FFFF55",
+          "glow": "FFFF00",
+          "background": "000055",
+          "sha256": "dd9c5918eb58e85b18382502260f65208452a9c9d72ebbdb14992619d31ef92a"
+        },
+        {
+          "file": "screenshots/emery/02_cyan_0123.png",
+          "name": "cyan",
+          "digit": "AAFFFF",
+          "glow": "00AAFF",
+          "background": "000000",
+          "sha256": "f2722af92492f29758df44088cf5882e3c218173288e2c7a576905a675837442"
+        },
+        {
+          "file": "screenshots/emery/03_pink_0123.png",
+          "name": "pink",
+          "digit": "FFAAFF",
+          "glow": "FF00AA",
+          "background": "000000",
+          "sha256": "67210e0c73693efbdcd507b4dac883687b4d60defeaabbba50be517229b078ae"
+        },
+        {
+          "file": "screenshots/emery/04_blue_on_white_0123.png",
+          "name": "blue_on_white",
+          "digit": "000055",
+          "glow": "0055AA",
+          "background": "FFFFFF",
+          "sha256": "33a0ded79f7e8e86d2c224fd2f417ce6cc3688e77656e16754650501cd22be58"
+        }
+      ],
+      "gif": "screenshots/emery/05_slideshow_0123.gif",
+      "gif_sha256": "f72f4d4bd9870961ba74b41b6d838f6703b2e90c248e68a2e2907ef19d2f1f84"
+    }
+  ]
+}
